@@ -1,0 +1,84 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+    background: #1a1a1a;
+    color: white;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #e74c3c;
+    margin-bottom: 30px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 4px solid #e74c3c;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #444;
+    transform: translateY(-5px);
+}
+
+input, select, button {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.podio {
+    font-weight: bold;
+    color: gold;
+}
